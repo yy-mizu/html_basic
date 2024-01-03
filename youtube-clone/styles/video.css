@@ -1,0 +1,84 @@
+
+.thumbnail
+{
+    margin-bottom: 8px;
+    position: relative;
+  
+}
+.video_page
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+   
+}
+.th1 {
+    width: 100%;
+
+
+}
+
+.profile_pic {
+    border-radius: 50px;
+    width: 40px;
+  
+
+}
+
+.video_desc
+{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+   
+
+}
+
+
+
+.video_title
+{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+
+.channel_name,.video_stats{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+}
+
+.channel_name{
+    margin-bottom: 4px;
+}
+
+.video-time {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  @media (max-width: 750px) {
+    .video_page {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 751px) and (max-width: 999px) {
+    .video_page {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+
+  }
